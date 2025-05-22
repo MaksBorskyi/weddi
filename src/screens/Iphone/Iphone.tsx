@@ -3,6 +3,7 @@ import { Card, CardContent } from "../../components/ui/card";
 import { FrameByAnima } from "./sections/FrameByAnima";
 import { HeroSectionPhoneByAnima } from "./sections/HeroSectionPhoneByAnima/HeroSectionPhoneByAnima";
 import { ViewByAnima } from "./sections/ViewByAnima";
+import background from '../public/images/top-art-drawings.png'
 
 export const Iphone = (): JSX.Element => {
     return (
@@ -20,7 +21,7 @@ export const Iphone = (): JSX.Element => {
                         <img
                             className="w-[300px] h-[388px] mt-[-200px]"
                             alt="Set botanical leaf"
-                            src="public/images/top-art-drawings.png"
+                            src={background}
                         />
                     </div>
                 </section>
