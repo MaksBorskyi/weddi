@@ -58,7 +58,7 @@ export const Iphone = (): JSX.Element => {
                 <section className="w-full px-4 mt-36 relative">
                     <Card className="border-none shadow-none">
                         <CardContent className="p-0 relative">
-                            <div className="font-normal text-base text-[#0f100f] mb-8 max-w-[265px] relative" style={{ top: '-50px' }}>
+                            <div className="font-normal text-base text-[#0f100f] mb-8 max-w-[265px] relative" style={{ top: '-70px' }}>
                                 Будемо щасливі розділити цей особливий день з вами!
                                 <br />
                                 <br />
@@ -75,7 +75,7 @@ export const Iphone = (): JSX.Element => {
                                     <div className="relative w-[262px]">
                                         <div className="absolute inset-0 rounded-t-full border-2 border-solid border-[#0f1010]" style={{ top: '-30px', left: '30px', right: '-30px', bottom: '30px' }} />
                                         <img
-                                            className="w-full h-auto object-cover rounded-t-[170px]"
+                                            className="w-full h-auto object-cover rounded-t-[170px]"  style={{marginLeft: '-20px'}}
                                             alt="Wedding photo"
                                             src={endDrawings}
                                         />
