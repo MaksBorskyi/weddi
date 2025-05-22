@@ -25,31 +25,33 @@ export const FrameByAnima = (): JSX.Element => {
         const seconds = totalSeconds % 60;
         return [
             { value: String(days).padStart(2, "0"), label: "день" },
-            { value: String(hours).padStart(2, "0"), label: "год." },
-            { value: String(minutes).padStart(2, "0"), label: "хв." },
-            { value: String(seconds).padStart(2, "0"), label: "сек." },
+            { value: String(hours).padStart(2, "0"), label: "год" },
+            { value: String(minutes).padStart(2, "0"), label: "хв" },
+            { value: String(seconds).padStart(2, "0"), label: "сек" },
         ];
     };
 
     const countdownData = getTimeParts(timeLeft);
 
     return (
-        <div className="flex flex-col w-full max-w-[363px] items-start gap-5">
-            <h3 className="w-full text-center font-normal text-base text-[#0f100f]">
+       <div className="flex flex-col w-full max-w-[363px] mx-auto items-center gap-4 px-2 sm:px-0 sm:items-start sm:gap-5">
+            <h3 className="w-full text-center font-normal text-xl sm:text-base text-[#0f100f]">
                 До весілля лишилось
             </h3>
-
-<Card className="w-full border-t-0 border-b-0 border-l border-r border-[#0f1010] rounded-none shadow-none sm:px-2 px-0 flex justify-center" style={{ marginLeft: 15 }}>
-                <CardContent className="flex items-center justify-center gap-[38px] px-[33px] py-4">
+        
+            <Card
+                className="w-full max-w-full sm:max-w-2xl border-t-0 border-b-0 border-r border-[#0f1010] rounded-none shadow-none flex justify-center px-1 sm:px-4 md:px-8"
+            >
+                <CardContent className="flex items-center justify-between gap-1 sm:gap-4 md:gap-8 py-2 sm:py-4 w-full transition-all">
                     {countdownData.map((item, index) => (
                         <div
                             key={index}
-                            className="flex flex-col w-[33px] items-center gap-3"
+                            className="flex flex-col items-center gap-0.5 sm:gap-1 flex-1"
                         >
-                            <div className="w-full mt-[-1px] font-['Playfair',Helvetica] font-normal text-[#0f100f] text-[32px] text-center leading-normal">
+                            <div className="w-full font-['Playfair',Helvetica] font-normal text-[#0f100f] text-3xl sm:text-4xl md:text-[40px] text-center leading-tight sm:leading-normal transition-all">
                                 {item.value}
                             </div>
-                            <div className="w-full font-['Inter',Helvetica] font-normal text-[#0f100f] text-sm text-center leading-normal">
+                            <div className="w-full font-['Inter',Helvetica] font-normal text-[#0f100f] text-xl sm:text-sm md:text-lg text-center leading-tight sm:leading-normal transition-all">
                                 {item.label}
                             </div>
                         </div>
