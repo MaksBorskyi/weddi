@@ -17,9 +17,12 @@ export const Iphone = (): JSX.Element => {
                 
                 <section className="w-full relative">
                     <HeroSectionPhoneByAnima />
-                    <div className="w-full md-24 [font-family:'Inter',Helvetica] font-medium text-[#0f1010] text-xl text-center tracking-[0] leading-normal" style={{ marginTop: '40px',marginBottom: '60px' }}>
-                        Запрошуємо на наше весілля!
+                    <div className="w-full md-24 [font-family:'Playfair',Helvetica] font-medium text-[#0f1010] text-2xl text-center tracking-[0] leading-normal" style={{ marginTop: '40px',marginBottom: '60px' }}>
+                        <h2 className="w-full [font-family:'Playfair',Helvetica] font-semibold text-[#0f1010] text-3xl text-center tracking-[0] leading-normal">
+                            Запрошуємо на наше весілля!
+                        </h2>
                     </div>
+                
                   <div className="relative flex justify-end"  style={{ marginTop: '180px'}}>
                         <img
                             className="w-[300px] h-[388px] mt-[-200px]"
