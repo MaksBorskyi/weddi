@@ -8,7 +8,7 @@ export const HeroSectionPhoneByAnima = (): JSX.Element => {
                 <img
                     className="w-full h-auto object-cover"
                     alt="Wedding couple"
-                    src="public/images/top.png"
+                    src="/public/images/top.png"
                 />
 <div className="absolute inset-0 flex flex-col justify-between p-4">
     <div className="w-full mt-16 [font-family:'Playfair',Helvetica] font-extrabold text-neutral-100 text-4xl text-center tracking-[0] leading-normal">

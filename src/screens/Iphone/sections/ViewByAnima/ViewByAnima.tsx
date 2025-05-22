@@ -72,7 +72,7 @@ export const ViewByAnima = (): JSX.Element => {
                         <img
                             className="w-[150px] h-[114px]"
                             alt="Set botanical leaf"
-                            src="public/images/line-art-drawings-1.png"
+                            src="/public/images/line-art-drawings-1.png"
                         />
                     </div>
                 </Card>

@@ -3,7 +3,10 @@ import { Card, CardContent } from "../../components/ui/card";
 import { FrameByAnima } from "./sections/FrameByAnima";
 import { HeroSectionPhoneByAnima } from "./sections/HeroSectionPhoneByAnima/HeroSectionPhoneByAnima";
 import { ViewByAnima } from "./sections/ViewByAnima";
-import background from '/public/images/top-art-drawings.png'
+import topArtDrawings from "/public/images/top-art-drawings.png";
+import makArtDrawings from "/public/images/mak-drawings.png";
+import botanicalArtDrawings from "/public/images/botanical-line-art-drawings-3.png";
+import endDrawings from "/public/images/end.png";
 
 export const Iphone = (): JSX.Element => {
     return (
@@ -21,7 +24,7 @@ export const Iphone = (): JSX.Element => {
                         <img
                             className="w-[300px] h-[388px] mt-[-200px]"
                             alt="Set botanical leaf"
-                            src={background}
+                            src={topArtDrawings}
                         />
                     </div>
                 </section>
@@ -37,7 +40,7 @@ export const Iphone = (): JSX.Element => {
                         <img
                             className="absolute w-[352px] h-[356px] left-[-25px]"
                             alt="Set botanical leaf"
-                            src="public/images/mak-drawings.png"
+                            src={makArtDrawings}
                         />
                     </div>
                 </div>
@@ -63,7 +66,7 @@ export const Iphone = (): JSX.Element => {
                                 <img
                                     className="absolute top-[-200px] right-[10px] w-[210px] z-10"
                                     alt="Decorative flower"
-                                    src="public/images/botanical-line-art-drawings-3.png"
+                                    src={botanicalArtDrawings}
                                 />
                                 <div className="relative flex justify-center">
                                     <div className="relative w-[262px]">
@@ -71,7 +74,7 @@ export const Iphone = (): JSX.Element => {
                                         <img
                                             className="w-full h-auto object-cover rounded-t-[170px]"
                                             alt="Wedding photo"
-                                            src="public/images/end.png"
+                                            src={endDrawings}
                                         />
                                     </div>
                                 </div>
