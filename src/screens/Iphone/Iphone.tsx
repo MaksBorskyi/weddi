@@ -64,7 +64,7 @@ export const Iphone = (): JSX.Element => {
 
                             <div className="relative">
                                 <img
-                                    className="absolute top-[-200px] right-[10px] w-[210px] z-10"
+                                    className="absolute top-[-225px] right-[-15px] w-[250px] z-10"
                                     alt="Decorative flower"
                                     src={botanicalArtDrawings}
                                 />

@@ -39,7 +39,7 @@ export const FrameByAnima = (): JSX.Element => {
                 До весілля лишилось
             </h3>
 
-            <Card className="w-full border-t-0 border-b-0 border-l border-r border-[#0f1010] rounded-none shadow-none">
+<Card className="w-full border-t-0 border-b-0 border-l border-r border-[#0f1010] rounded-none shadow-none sm:px-2 px-0 flex justify-center" style={{ marginLeft: 15 }}>
                 <CardContent className="flex items-center justify-center gap-[38px] px-[33px] py-4">
                     {countdownData.map((item, index) => (
                         <div
