@@ -2,6 +2,8 @@ import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
 import lineArtDrawings from "/public/images/line-art-drawings-1.png";
 import churchArtDrawings from "/public/images/church.png";
+import localBarDrawings from "/public/images/local-bar.png";
+import cakeDrawings from "/public/images/cake.png";
 
 export const ViewByAnima = (): JSX.Element => {
     const eventSchedule = [
@@ -20,7 +22,7 @@ export const ViewByAnima = (): JSX.Element => {
             location: 'Ресторан "Шепіт"',
             address: "м. Львів, вул. Замарстинівська 276",
             mapUrl: "https://maps.app.goo.gl/heHpZPR8RNoQ3KjE9",
-            icon: "/public/images/local-bar.png",
+            icon: localBarDrawings,
             iconAlt: "Local bar",
         },
         {
@@ -28,7 +30,7 @@ export const ViewByAnima = (): JSX.Element => {
             title: "Завершення",
             location: "",
             address: "",
-            icon: "/public/images/cake.png",
+            icon: cakeDrawings,
             iconAlt: "Cake",
         },
     ];
