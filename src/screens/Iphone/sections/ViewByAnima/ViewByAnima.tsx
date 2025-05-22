@@ -11,7 +11,7 @@ export const ViewByAnima = (): JSX.Element => {
             location: "Храм Святого Апостола Андрія Первозванного",
             address: "м. Львів, вул. Шевченка 66",
             mapUrl: "https://maps.app.goo.gl/4Cnr9CMXMCAgH7zB9",
-            icon: {churchArtDrawings},
+            icon: churchArtDrawings,
             iconAlt: "Church",
         },
         {
