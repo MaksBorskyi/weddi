@@ -3,7 +3,7 @@ import { Card, CardContent } from "../../components/ui/card";
 import { FrameByAnima } from "./sections/FrameByAnima";
 import { HeroSectionPhoneByAnima } from "./sections/HeroSectionPhoneByAnima/HeroSectionPhoneByAnima";
 import { ViewByAnima } from "./sections/ViewByAnima";
-import background from '../public/images/top-art-drawings.png'
+import background from '/public/images/top-art-drawings.png'
 
 export const Iphone = (): JSX.Element => {
     return (
