@@ -1,5 +1,7 @@
 import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
+import lineArtDrawings from "/public/images/line-art-drawings-1.png";
+import churchArtDrawings from "/public/images/church.png";
 
 export const ViewByAnima = (): JSX.Element => {
     const eventSchedule = [
@@ -9,7 +11,7 @@ export const ViewByAnima = (): JSX.Element => {
             location: "Храм Святого Апостола Андрія Первозванного",
             address: "м. Львів, вул. Шевченка 66",
             mapUrl: "https://maps.app.goo.gl/4Cnr9CMXMCAgH7zB9",
-            icon: "public/images/church.png",
+            icon: {churchArtDrawings},
             iconAlt: "Church",
         },
         {
@@ -18,7 +20,7 @@ export const ViewByAnima = (): JSX.Element => {
             location: 'Ресторан "Шепіт"',
             address: "м. Львів, вул. Замарстинівська 276",
             mapUrl: "https://maps.app.goo.gl/heHpZPR8RNoQ3KjE9",
-            icon: "public/images/local-bar.png",
+            icon: "/public/images/local-bar.png",
             iconAlt: "Local bar",
         },
         {
@@ -26,7 +28,7 @@ export const ViewByAnima = (): JSX.Element => {
             title: "Завершення",
             location: "",
             address: "",
-            icon: "public/images/cake.png",
+            icon: "/public/images/cake.png",
             iconAlt: "Cake",
         },
     ];
@@ -72,7 +74,7 @@ export const ViewByAnima = (): JSX.Element => {
                         <img
                             className="w-[150px] h-[114px]"
                             alt="Set botanical leaf"
-                            src="/public/images/line-art-drawings-1.png"
+                            src={lineArtDrawings}
                         />
                     </div>
                 </Card>
