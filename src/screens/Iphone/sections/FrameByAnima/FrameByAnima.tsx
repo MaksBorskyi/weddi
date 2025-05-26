@@ -24,7 +24,8 @@ export const FrameByAnima = (): JSX.Element => {
         const minutes = Math.floor((totalSeconds % 3600) / 60);
         const seconds = totalSeconds % 60;
         return [
-            { value: String(days).padStart(2, "0"), label: "день" },
+            {   value: String(days).padStart(2, "0"), 
+                label: days === 1 ? "день" : days >= 2 && days <= 4 ? "дні" : "днів", },
             { value: String(hours).padStart(2, "0"), label: "год" },
             { value: String(minutes).padStart(2, "0"), label: "хв" },
             { value: String(seconds).padStart(2, "0"), label: "сек" },
