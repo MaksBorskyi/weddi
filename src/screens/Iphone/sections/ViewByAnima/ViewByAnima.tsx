@@ -19,7 +19,7 @@ export const ViewByAnima = (): JSX.Element => {
         {
             time: "14:30",
             title: "Святкування",
-            location: 'Ресторан "Шепіт"',
+            location: 'Ресторан "Шепіт" (2-й поверх)',
             address: "м. Львів, вул. Замарстинівська 276",
             mapUrl: "https://maps.app.goo.gl/heHpZPR8RNoQ3KjE9",
             icon: localBarDrawings,
