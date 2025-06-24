@@ -23,12 +23,12 @@ export const ViewByAnima = (): JSX.Element => {
             mapUrl: "https://maps.app.goo.gl/v6GpW5shbR44qkZh7",
             icon: localBarDrawings,
             iconAlt: "Local bar",
-        },
+        }
     ];
 
     return (
-        <div className="flex flex-col w-full items-start gap-10 py-[13px]">
-            <div className="w-full mt-10">
+        <div className="flex flex-col w-full items-start gap-10 ">
+            <div className="w-full mt-1">
                 <h1 className="w-full [font-family:'Playfair',Helvetica] font-semibold text-[#0f1010] text-4xl text-center tracking-[0] leading-normal">
                     Деталі
                 </h1>
@@ -126,6 +126,19 @@ export const ViewByAnima = (): JSX.Element => {
                                     </div>
                                 </div>
                             ))}
+                        </div>
+                    <div className="flex flex-col items-center w-full mt-8">
+                        <h2 className="w-full [font-family:'Inter',Helvetica]  font-medium text-2xl text-center text-[#0f100f] tracking-[0] leading-normal">
+                            Кольори весілля
+                        </h2>
+                        <br/>
+                    <div className="flex flex-row gap-4 justify-center">
+                        <span className="w-[60px] h-[60px] rounded-full border border-white" style={{ backgroundColor: '#9B7B6C' }} />
+                        <span className="w-[60px] h-[60px] rounded-full border border-white" style={{ backgroundColor: '#A9907D' }} />
+                        <span className="w-[60px] h-[60px] rounded-full border border-white" style={{ backgroundColor: '#D3BBA1' }} />
+                        <span className="w-[60px] h-[60px] rounded-full border border-white" style={{ backgroundColor: '#E3D1C3' }} />
+                        <span className="w-[60px] h-[60px] rounded-full border border-white" style={{ backgroundColor: '#F0F0EE' }} />
+                     </div>
                         </div>
                     </CardContent>
                 </Card>

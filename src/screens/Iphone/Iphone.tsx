@@ -10,9 +10,9 @@ import endDrawings from "/public/images/end.jpg";
 
 export const Iphone = (): JSX.Element => {
     return (
-        <div className="bg-[#f2e8e1] flex flex-col items-center w-full">
+        <div className="bg-[#eae3d9] flex flex-col items-center w-full">
             
-            <div className="bg-[#f2e8e1] w-full max-w-[393px] overflow-hidden relative">
+            <div className="bg-[#eae3d9] w-full max-w-[393px] overflow-hidden relative">
                 {/* Hero Section */}
                 
                 <section className="w-full relative">
@@ -32,11 +32,11 @@ export const Iphone = (): JSX.Element => {
                     </div>
                 </section>
 
-                {/* Frame Section */}
-                <section className="w-full relative">
-                    <FrameByAnima />
-                </section>
+                {/* View Section */}
+                <section className="w-full px-4 relative">
+                    <ViewByAnima />
 
+                </section>
                 {/* Decorative Elements */}
                 <div className="w-full relative">
                     <div className="relative h-[370px] overflow-hidden">
@@ -48,10 +48,10 @@ export const Iphone = (): JSX.Element => {
                     </div>
                 </div>
 
-                {/* View Section */}
-                <section className="w-full px-4 relative">
-                    <ViewByAnima />
-
+      
+                {/* Frame Section */}
+                <section className="w-full relative">
+                    <FrameByAnima />
                 </section>
 
                 {/* Closing Section */}
