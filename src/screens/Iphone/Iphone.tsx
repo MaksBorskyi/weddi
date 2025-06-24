@@ -6,7 +6,7 @@ import { ViewByAnima } from "./sections/ViewByAnima";
 import topArtDrawings from "/public/images/top-art-drawings.png";
 import makArtDrawings from "/public/images/mak-drawings.png";
 import botanicalArtDrawings from "/public/images/botanical-line-art-drawings-3.png";
-import endDrawings from "/public/images/end.png";
+import endDrawings from "/public/images/end.jpg";
 
 export const Iphone = (): JSX.Element => {
     return (
@@ -59,10 +59,12 @@ export const Iphone = (): JSX.Element => {
                     <Card className="border-none shadow-none">
                         <CardContent className="p-0 relative">
                             <div className="font-normal text-base text-[#0f100f] mb-8 max-w-[265px] relative" style={{ top: '-70px' }}>
-                                Будемо щасливі розділити цей особливий день з вами!
+                                Запрошуємо вас бути свідками цієї історії,
+                                що написана любовʼю, ніжністю і мріями.
                                 <br />
                                 <br />
-                                До зустрічі!
+                                З любовʼю, <br />
+                                Микола та Соломія
                             </div>
 
                             <div className="relative">
@@ -71,16 +73,16 @@ export const Iphone = (): JSX.Element => {
                                     alt="Decorative flower"
                                     src={botanicalArtDrawings}
                                 />
-                                <div className="relative flex justify-center">
-                                    <div className="relative w-[262px]">
-                                        <div className="absolute inset-0 rounded-t-full border-2 border-solid border-[#0f1010]" style={{ top: '-30px', left: '30px', right: '-30px', bottom: '30px' }} />
-                                        <img
-                                            className="w-full h-auto object-cover rounded-t-[170px]"  style={{marginLeft: '-20px'}}
-                                            alt="Wedding photo"
-                                            src={endDrawings}
-                                        />
-                                    </div>
-                                </div>
+                   <div className="relative flex justify-center">
+                                     <div className="relative w-[262px] h-[400px]">
+                                         <div className="absolute inset-0 rounded-t-full border-2 border-solid border-[#0f1010]" style={{ top: '-30px', left: '30px', right: '-30px', bottom: '30px' }} />
+                                         <img
+                                             className="w-full h-full object-cover rounded-t-[170px]" style={{ marginLeft: '-20px' }}
+                                             alt="Wedding photo"
+                                             src={endDrawings}
+                                         />
+                                     </div>
+                                 </div>
                                 <div className="h-12" />
                             </div>
                         </CardContent>

@@ -3,35 +3,26 @@ import { Card, CardContent } from "../../../../components/ui/card";
 import lineArtDrawings from "/public/images/line-art-drawings-1.png";
 import churchArtDrawings from "/public/images/church.png";
 import localBarDrawings from "/public/images/local-bar.png";
-import cakeDrawings from "/public/images/cake.png";
 
 export const ViewByAnima = (): JSX.Element => {
     const eventSchedule = [
         {
             time: "12:00",
             title: "Вінчання",
-            location: "Храм Святого Апостола Андрія Первозванного",
-            address: "м. Львів, вул. Шевченка 66",
-            mapUrl: "https://maps.app.goo.gl/4Cnr9CMXMCAgH7zB9",
+            location: "Церква Благовіщення Пресвятої Богородиці",
+            address: "м. Городок, вул. Коцюбинського 5",
+            mapUrl: "https://maps.app.goo.gl/BMjhuRugGYyDe1gS7",
             icon: churchArtDrawings,
             iconAlt: "Church",
         },
         {
-            time: "14:30",
+            time: "14:00",
             title: "Святкування",
-            location: 'Ресторан "Шепіт" (2-й поверх)',
-            address: "м. Львів, вул. Замарстинівська 276",
-            mapUrl: "https://maps.app.goo.gl/heHpZPR8RNoQ3KjE9",
+            location: 'Ресторан Рафаель',
+            address: "вулиця Івана Гонти, 1а, Зубра, Львівська область",
+            mapUrl: "https://maps.app.goo.gl/v6GpW5shbR44qkZh7",
             icon: localBarDrawings,
             iconAlt: "Local bar",
-        },
-        {
-            time: "22:00",
-            title: "Завершення",
-            location: "",
-            address: "",
-            icon: cakeDrawings,
-            iconAlt: "Cake",
         },
     ];
 
@@ -54,13 +45,13 @@ export const ViewByAnima = (): JSX.Element => {
                             <div className="flex items-center justify-center">
                                 <div className="w-[99px] text-center">
                   <span className="[font-family:'Playfair',Helvetica] font-normal text-[#0f100f] text-[32px] tracking-[0] leading-normal">
-                    14
+                    26
                   </span>
                                 </div>
 
                                 <div className="w-[99px] h-[29px] flex items-center justify-center border-r border-l border-[#0f1010]">
                   <span className="[font-family:'Playfair',Helvetica] font-normal text-2xl text-center text-[#0f100f] tracking-[0] leading-normal">
-                    червня
+                    липня
                   </span>
                                 </div>
 

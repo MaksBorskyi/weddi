@@ -4,7 +4,7 @@ import { Card, CardContent } from "../../../../components/ui/card";
 export const FrameByAnima = (): JSX.Element => {
     // Data for countdown units
     const [timeLeft, setTimeLeft] = React.useState(() => {
-        const targetDate = new Date("2025-06-14T12:00:00");
+        const targetDate = new Date("2025-07-26T12:00:00");
         const now = new Date();
         const diff = targetDate.getTime() - now.getTime();
         return diff > 0 ? diff : 0;
