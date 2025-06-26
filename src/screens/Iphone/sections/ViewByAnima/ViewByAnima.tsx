@@ -19,7 +19,7 @@ export const ViewByAnima = (): JSX.Element => {
             time: "14:00",
             title: "Святкування",
             location: 'Ресторан Рафаель',
-            address: "вулиця Івана Гонти, 1а, Зубра, Львівська область",
+            address: "с. Зубра, вул. Івана Гонти 1а",
             mapUrl: "https://maps.app.goo.gl/v6GpW5shbR44qkZh7",
             icon: localBarDrawings,
             iconAlt: "Local bar",
