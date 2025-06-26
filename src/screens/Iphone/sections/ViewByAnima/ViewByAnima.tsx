@@ -129,15 +129,16 @@ export const ViewByAnima = (): JSX.Element => {
                         </div>
                     <div className="flex flex-col items-center w-full mt-8">
                         <h2 className="w-full [font-family:'Inter',Helvetica]  font-medium text-2xl text-center text-[#0f100f] tracking-[0] leading-normal">
-                            Кольори весілля
+                            Кольори нашого весілля
                         </h2>
                         <br/>
-                    <div className="flex flex-row gap-4 justify-center">
-                        <span className="w-[60px] h-[60px] rounded-full border border-white" style={{ backgroundColor: '#9B7B6C' }} />
-                        <span className="w-[60px] h-[60px] rounded-full border border-white" style={{ backgroundColor: '#A9907D' }} />
-                        <span className="w-[60px] h-[60px] rounded-full border border-white" style={{ backgroundColor: '#D3BBA1' }} />
-                        <span className="w-[60px] h-[60px] rounded-full border border-white" style={{ backgroundColor: '#E3D1C3' }} />
-                        <span className="w-[60px] h-[60px] rounded-full border border-white" style={{ backgroundColor: '#F0F0EE' }} />
+                    <div className="flex flex-row gap-1 justify-center">
+                        <span className="w-[58px] h-[58px] rounded-full border border-white" style={{ backgroundColor: '#9B7B6C' }} />
+                        <span className="w-[58px] h-[58px] rounded-full border border-white" style={{ backgroundColor: '#A9907D' }} />
+                        <span className="w-[58px] h-[58px] rounded-full border border-white" style={{ backgroundColor: '#D3BBA1' }} />
+                        <span className="w-[58px] h-[58px] rounded-full border border-white" style={{ backgroundColor: '#E3D1C3' }} />
+                        <span className="w-[58px] h-[58px] rounded-full border border-white" style={{ backgroundColor: '#F4D4CE' }} />
+                        <span className="w-[58px] h-[58px] rounded-full border border-white" style={{ backgroundColor: '#F0F0EE' }} />
                      </div>
                         </div>
                     </CardContent>
